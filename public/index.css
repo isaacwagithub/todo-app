@@ -1,0 +1,138 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	margin:0;
+	padding:0;
+}
+h1{
+	display:block;
+	height:70px;
+	background-color:black;
+	line-height:60px;
+	color:grey;
+	font-size:37pt;
+	text-align:center;
+	opacity:.9;
+}
+div.output-tasks-div{
+	display:block;
+	max-width:800px;
+	min-height:80px;
+	margin:20px auto;
+}
+div.output-tasks-div thead{
+	height:40px;
+	background-color:black;
+	color:grey;
+	width:800px;
+	opacity:.9;
+}
+div.output-tasks-div th{
+	width:375px;
+	height:40px;
+	font-size:22px;
+}
+div.output-tasks-div th:first-child{
+	width:150px;
+}
+div.output-tasks-div td{
+	width:375px;
+	height:40px;
+	background-color:grey;
+	color:white;
+	padding-left:15px;
+	font-size:19px;
+}
+div.output-tasks-div td:first-child{
+	width:150px;
+}
+input{
+	width:150px;
+	height:30px;
+	
+}
+div.output-tasks-div input:hover{
+	cursor:pointer;
+}
+
+div.output-tasks-div ul.no-tasks-ul{
+	margin:0;
+	list-style:none;
+}
+div.output-tasks-div ul.no-tasks-ul li{
+	width:320px;
+	margin:30px auto 0px auto;
+	font-size:16pt;
+	color:red;
+}
+ul.task-error-ul{
+	margin:0;
+	list-style:none;
+}
+ul.task-error-ul li{
+	width:160px;
+	color:red;
+	text-align:center;
+	font-size:16pt;
+	margin:5px auto;
+}
+
+/* div for inputs */
+div.input-tasks-div{
+	display:block;
+	border:2px solid black;
+	max-width:400px;
+	min-height:90px;
+	margin:10px auto;
+}
+div.input-tasks-div h2{
+	width:400px;
+	background-color:black;
+	color:grey;
+	font-size:25px;
+	opacity:.9;
+	text-align:center;
+	height:45px;
+	line-height:40px;
+}
+div.input-tasks-div input{
+	width:250px;
+	margin:10px;
+	border:1px solid black;
+}
+div.input-tasks-div .submit-button{
+	width:110px;
+	margin:0;
+	border:1px solid white;
+	background-color:green;
+	color:white;
+	font-size:13pt;
+	height:34px;
+}
+div.input-tasks-div .submit-button:hover{
+	cursor:pointer;
+}
+.update-button{
+	background-color:green;
+	color:white;
+	width:120px;
+	margin:0px 15px;
+	font-size:12pt;
+}
+.delete-button{
+	background-color:red;
+	color:white;
+	width:120px;
+	margin:0px 15px;
+	font-size:12pt;
+}
+#task-id{
+	background-color:grey;
+	color:white;
+	width:250px;
+	margin:0px;
+	border:1px solid grey;
+	font-size:13pt;
+}

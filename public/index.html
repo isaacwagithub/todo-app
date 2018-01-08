@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="index.css">
+<script type="text/javascript" src="./js/build.js"></script>
+</head>
+<body>
+<h1>To-do App </h1>
+<!-- div for created tasks -->
+<div class="output-tasks-div">
+<ul class="no-tasks-ul"></ul>
+	<form class="output-form">
+		<table class="output-table">
+			<thead>
+				<tr>
+					<th>Id.</th>
+					<th>Tasks</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</form>
+</div>
+
+<div class="input-tasks-div">
+	<h2>Create A New Task Below</h2>
+	<form class="input-tasks-form">
+		<table class="input-tasks-table">
+			<tr>
+				
+				<td><ul class="task-error-ul"></ul></td>
+			</tr>
+			<tr>
+				<td><input type="text" id="task-name"></td>
+				<td><input type="submit" class="submit-button" value="Create"></td>
+			</tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>
